@@ -1,0 +1,142 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+      "name": "Любятово шоколадное",
+      "description": "Очень вкусное с шоколадным привкусом",
+      "photo": "",
+      "category": 6,
+      "price": 47.78,
+      "created_at": "2024-08-11",
+      "updated_at": null,
+      "manufactured_at": "2024-04-01"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 7,
+    "fields": {
+      "name": "Любятово лимонное к чаю",
+      "description": "Для чаепития в середине дня",
+      "photo": "",
+      "category": 6,
+      "price": 43.0,
+      "created_at": "2024-08-08",
+      "updated_at": "2024-08-11",
+      "manufactured_at": "2024-04-01"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 8,
+    "fields": {
+      "name": "Крекер с солью",
+      "description": "Очень приятный на вкус и утоляет голод",
+      "photo": "",
+      "category": 6,
+      "price": 40.0,
+      "created_at": "2024-08-05",
+      "updated_at": null,
+      "manufactured_at": "2024-03-01"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 9,
+    "fields": {
+      "name": "Подушечки с начинкой",
+      "description": "Быстро готовятся и незаменимы для детей",
+      "photo": "",
+      "category": 7,
+      "price": 72.34,
+      "created_at": "2024-08-12",
+      "updated_at": "2024-08-12",
+      "manufactured_at": "2024-02-07"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 10,
+    "fields": {
+      "name": "Кукурузные хлопья 300 грамм",
+      "description": "Быстро готовятся с горячим молоком",
+      "photo": "",
+      "category": 7,
+      "price": 56.0,
+      "created_at": "2024-08-07",
+      "updated_at": null,
+      "manufactured_at": "2024-05-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 11,
+    "fields": {
+      "name": "Подушечки со сгущенным молоком",
+      "description": "Быстро утоляют голод",
+      "photo": "",
+      "category": 7,
+      "price": 48.0,
+      "created_at": "2024-08-06",
+      "updated_at": null,
+      "manufactured_at": "2024-01-17"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 12,
+    "fields": {
+      "name": "Русская картошка",
+      "description": "Очень вкусная из натурального картофеля",
+      "photo": "",
+      "category": 8,
+      "price": 75.0,
+      "created_at": "2024-08-05",
+      "updated_at": null,
+      "manufactured_at": "2024-05-21"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 13,
+    "fields": {
+      "name": "Чипсы со вкусом сыра и зелени",
+      "description": "Вкус сыра Маасдам и петрушки",
+      "photo": "",
+      "category": 8,
+      "price": 81.0,
+      "created_at": "2024-08-14",
+      "updated_at": null,
+      "manufactured_at": "2024-06-11"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 14,
+    "fields": {
+      "name": "Сухарики с солью",
+      "description": "Реально соленые для безалкогольного пива",
+      "photo": "",
+      "category": 9,
+      "price": 32.0,
+      "created_at": "2024-08-05",
+      "updated_at": null,
+      "manufactured_at": "2024-06-10"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 15,
+    "fields": {
+      "name": "Сухарики с перцем",
+      "description": "Для любителей острого",
+      "photo": "",
+      "category": 9,
+      "price": 34.22,
+      "created_at": "2024-08-06",
+      "updated_at": "2024-08-09",
+      "manufactured_at": "2024-06-10"
+    }
+  }
+]
