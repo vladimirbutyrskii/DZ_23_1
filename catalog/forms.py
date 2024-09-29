@@ -1,3 +1,4 @@
+from django import forms
 from django.core.exceptions import ValidationError
 from django.forms import ModelForm, BooleanField
 
@@ -14,16 +15,16 @@ class StyleFormMixin:
                 field.widget.attrs['class'] = "form-control"
 
 
-class ProductForm(StyleFormMixin, ModelForm):
+class ProductForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Product
         exclude = ("views_counter", "owner")
 
 
-class ProductModeratorForm(StyleFormMixin, ModelForm):
+class ProductModeratorForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Product
-        fields = ("description", "category")
+        fields = ("description", "category", "is_published")
 
     lock_words = ["казино", "криптовалюта", "крипта", "биржа", "дешево", "бесплатно", "обман", "полиция", "радар"]
 
@@ -48,7 +49,7 @@ class ProductModeratorForm(StyleFormMixin, ModelForm):
         return description
 
 
-class VersionForm(StyleFormMixin, ModelForm):
+class VersionForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Version
         fields = '__all__'
