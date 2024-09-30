@@ -86,6 +86,17 @@ class ProductUpdateView(LoginRequiredMixin, UpdateView):
         else:
             raise PermissionDenied
 
+    """def get_form_class(self):
+        # Метод для выбора формы в зависимости от прав доступа пользователя
+        # от куратора: лучше, чем у меня
+        user = self.request.user  # Получаем текущего пользователя
+        if user == self.object.owner:
+            return ProductForm
+        elif user.groups.filter(name="moderator").exists():
+            return ProductModeratorForm
+        else:
+            raise PermissionDenied"""
+
 
 class ProductDeleteView(LoginRequiredMixin, DeleteView):
     model = Product
